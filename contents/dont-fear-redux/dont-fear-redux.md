@@ -3,6 +3,7 @@ title: 'How did I stop fearing about redux ?'
 subtitle: 'In this blog, I talk about how i stopped fearing about redux.'
 date: '2021-02-19'
 keywords: 'blog , redux ,react'
+image: 'https://redux.js.org/img/redux-logo-landscape.png'
 ---
 
 ## **What is Redux?**
