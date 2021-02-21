@@ -32,11 +32,7 @@ const IndexPage = () => {
 
 				return (
 					<div key={postIndex}>
-						<Head
-							title="Home"
-							keywords={['tech', 'redux'].join(',')}
-							image={edge.node.frontmatter.image}
-						/>
+						<Head title="Home" keywords={['tech', 'redux'].join(',')} />
 						<article className={`list-blogs`}>
 							<p>
 								<i className="far fa-calendar-alt"></i>&nbsp;
