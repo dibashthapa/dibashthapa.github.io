@@ -10,7 +10,7 @@
 		"format": "prettier --write src/**/*.{js,jsx}",
 		"start": "npm run develop",
 		"serve": "gatsby serve",
-		"deploy": "gatsby build && gh-pages -d public -b master"
+		"deploy": "gatsby build && gh-pages -d public -b main"
 	},
 	"dependencies": {
 		"env-cmd": "^8.0.2",

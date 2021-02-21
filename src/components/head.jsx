@@ -8,7 +8,10 @@ const Head = ({ title, keywords, image }) => {
 			<meta name="description" content="A personal blog website" />
 			<meta name="author" content="Dibash Thapa" />
 			<meta name="keywords" content={`${keywords}`} />
-			<meta property="twitter:image" content={image} />
+			<meta property="og:image" content={image} />
+			<meta property="og:site_name" content="Dibash Blogs" />
+			<meta property="og:title" content={title} />
+			<meta property="og:type" content="article" />
 		</Helmet>
 	)
 }
